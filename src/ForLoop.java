@@ -1,9 +1,9 @@
 public class ForLoop {
     public static void main(String[] args) {
         // For without any condition
-         for(;;) {
-             System.out.println("Loop Forever");
-         }
+//         for(;;) {
+//             System.out.println("Loop Forever");
+//         }
         // For with condition
         var counter1 = 1;
         for (; counter1 <= 10 ;) {
