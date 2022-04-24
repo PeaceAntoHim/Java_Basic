@@ -33,8 +33,6 @@ public class OperatorAritmatic {
         e++;
         System.out.println(e);
 
-
-
     }
 
 }
