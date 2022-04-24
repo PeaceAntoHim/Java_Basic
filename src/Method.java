@@ -81,6 +81,4 @@ public class Method {
             System.out.println("Sorry" + name + "Your not graduated");
         }
     }
-    // Method Overloading
-
 }
