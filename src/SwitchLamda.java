@@ -1,6 +1,9 @@
 public class SwitchLamda {
     public static void main(String[] args) {
-        nilai = "A";
+        var nilai = "A";
+        var nilai1 = "B";
+        String ucapan;
+
 
         switch (nilai) {
             case "A" -> System.out.println("Bravo you graduate with great");
@@ -10,5 +13,14 @@ public class SwitchLamda {
                 System.out.println("Mybe you wrong to choose major");
             }
         }
+
+        // Switch without yeild
+        switch (nilai1) {
+            case "A" -> ucapan = "Bravo you graduate with great";
+            case "B", "C" -> ucapan = "You Graduate";
+            case "D" -> ucapan = "You not graduate";
+            default -> ucapan = "Mybe you wrong to choose major";
+        }
+        System.out.println(ucapan);
     }
 }
