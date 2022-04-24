@@ -23,7 +23,7 @@ public class NumberDataType {
 
         // Convert number data type
         // You have to remember if you want to change int to byte you have to force cause int and byte it's diffrent
-        byte  iniByte = 10;S
+        byte  iniByte = 10;
         short iniShort = iniByte;
         int iniInt = iniShort;
 
