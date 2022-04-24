@@ -64,9 +64,6 @@ public class ArrayDataStructure {
         System.out.println(members[1][2]);
         System.out.println(members[2][0]);
 
-
-
-
     }
 
 }
