@@ -21,13 +21,13 @@ public class NumberDataType {
         // Underscore
         long amount = 1000_000_000;
 
-        // Konversi Tipe Data Number
+        // Convert number data type
         // You have to remember if you want to change int to byte you have to force cause int and byte it's diffrent
-        byte  thisByte = 10;
-        short thisShort = thisByte;
-        int thisInt = thisShort;
+        byte  iniByte = 10;S
+        short iniShort = iniByte;
+        int iniInt = iniShort;
 
-        byte thisByte2 = (byte) thisInt;
+        byte thisByte2 = (byte) iniInt;
 
     }
 
